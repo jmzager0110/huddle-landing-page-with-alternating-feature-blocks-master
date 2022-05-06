@@ -1,16 +1,9 @@
+***index file for codepen***
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     * { font-family: 'Poppins', sans-serif; }
     p { color: hsl(208, 11%, 55%); font: 18px; }
@@ -22,9 +15,11 @@
     .ready-card{ border: .05px solid hsl(208, 11%, 55%); border-radius: 5px; }
     .footsie-logo{ filter: brightness(100);}
   </style>
+
 </head>
+
 <body>
-  <table class="top" style="background: hsl(193, 100%, 96%); background-image: url('images/bg-hero-desktop.svg');">
+  <table class="top" style="background: hsl(193, 100%, 96%); //TODO: background-image: url('images/bg-hero-desktop.svg');">
     <tr>
       <td><img src="images/logo.svg"></td>
       <td><button class="right-gray" style="background: white"><h5>Try It Free</h5></button></td></tr>
@@ -33,10 +28,10 @@
               Create connections with your users as you engage in genuine discussion.</b></p>
         <button class="left-pink" style="background: hsl(322, 100%, 66%); color: white"><h3>Get Started For Free</h3></button>
       </td>
-      <td><img src="images/illustration-mockups.svg" alt="" width="115%" height="45%"></td>
+      <td><img src="//TODO: " alt="" width="115%" height="45%"></td>
     </tr>
   </table>
-  
+
   <table class="grow">
     <tr>
       <td>
@@ -45,7 +40,7 @@
            Think of the insightful conversations you miss out on with a feedback form.</p>
       </td>
       <td>
-        <img src="images/illustration-grow-together.svg" alt="" width="450px" height="450px">
+        <img src="//TODO: " alt="" width="450px" height="450px">
       </td>
       </tr>
   </table>
@@ -58,7 +53,7 @@
            have just-in-time loading for a more natural flow.</p>
       </td>
       <td>
-        <img src="images/illustration-flowing-conversation.svg" alt="" width="450px" height="450px">
+        <img src="//TODO: " alt="" width="450px" height="450px">
       </td>
     </tr>
   </table>
@@ -71,7 +66,7 @@
            This means, once signed in to your app, your users can start chatting immediately.</p>
       </td>
       <td>
-        <img src="images/illustration-your-users.svg" alt="" width="450px" height="450px">
+        <img src="//TODO: " alt="" width="450px" height="450px">
       </td>
     </tr>
   </table>
@@ -91,14 +86,14 @@
 
   <footer>
     <table class="footsie">
-      <tr><td><img src="images/logo.svg" alt="" class="footsie-logo"></td></tr>
-      <tr><td><img src="images/icon-location.svg" alt="Location icon" width="10px" height="10px"></td>
+      <tr><td><img src="//TODO: LOGO" alt="" class="footsie-logo"></td></tr>
+      <tr><td><img src="//TODO: LOC ICON" alt="Location icon" width="10px" height="10px"></td>
           <td><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p></td>
-      <tr><td><img src="images/icon-phone.svg" alt="Phone icon" width="10px" height="10px"></td>
+      <tr><td><img src="//TODO: PHONE ICON" alt="Phone icon" width="10px" height="10px"></td>
         <td><p>+1-543-123-4567</p></td>
       </tr>
       <tr>
-        <td><img src="images/icon-email.svg" alt="Email icon" width="10px" height="10px"></td>
+        <td><img src="//TODO: EMAIL ICON" alt="Email icon" width="10px" height="10px"></td>
         <td><p>example@huddle.com</p></td>
       </tr>
       <tr><td><p>About Us</p></td>
@@ -110,7 +105,6 @@
       <tr><td><p>FAQ</p></td>
         <td><p>Contact Us</p></td>
       </tr>
-      <!--<tr><td><p>&#9790;</p></td><td><p>&#127760;</p></td><td><p>&#9789;</p></td></tr>-->
       <tr><td><p>&#9790;--------------&#127760;--------------&#9789;</p></td></tr>
       <tr><td><p class="attribution">
         <span>&copy Copyright 2018 Huddle. All rights reserved.</span></p>
@@ -119,5 +113,3 @@
       </p></td></tr>
     </table>
   </footer>
-</body>
-</html>
