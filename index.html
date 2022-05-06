@@ -14,7 +14,8 @@
   <style>
     * { font-family: 'Poppins', sans-serif; }
     p { color: hsl(208, 11%, 55%); font: 18px; }
-    ul {  list-style-type: none; margin: 0; padding: 0; }
+    ul {  list-style-type: none; }
+    .decorated-list-items ul{ list-style-type: initial; }
     button {border-style: none; border-radius: 15px; }
     .footsie, .attribution { color: white; background-color: hsl(192, 100%, 9%); }
     .attribution { font-size: 11px; text-align: center; }
@@ -24,100 +25,72 @@
   </style>
 </head>
 <body>
-  <table class="top" style="background: hsl(193, 100%, 96%); background-image: url('images/bg-hero-desktop.svg');">
-    <tr>
-      <td><img src="images/logo.svg"></td>
-      <td><button class="right-gray" style="background: white"><h5>Try It Free</h5></button></td></tr>
-      <td><h1>Build The Community Your Fans Will Love</h1>
-        <p><b>Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
-              Create connections with your users as you engage in genuine discussion.</b></p>
-        <button class="left-pink" style="background: hsl(322, 100%, 66%); color: white"><h3>Get Started For Free</h3></button>
-      </td>
-      <td><img src="images/illustration-mockups.svg" alt="" width="115%" height="45%"></td>
-    </tr>
-  </table>
-  
-  <table class="grow">
-    <tr>
-      <td>
-        <h2>Grow Together</h2>
-        <p>Generate meaningful discussions with your audience and build a strong, loyal community.
-           Think of the insightful conversations you miss out on with a feedback form.</p>
-      </td>
-      <td>
-        <img src="images/illustration-grow-together.svg" alt="" width="450px" height="450px">
-      </td>
-      </tr>
-  </table>
+  <header class="top" style="background: hsl(193, 100%, 96%); background-image: url('images/bg-hero-desktop.svg');">
+    <article>
+      <img src="images/logo.svg"> <h1>Build The Community Your Fans Will Love <button class="right-gray" style="background: white"><h5>Try It Free</h5></button></h1>
+      <section>
+    <p><b>Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+          Create connections with your users as you engage in genuine discussion.</b></p>
+    <button class="left-pink" style="background: hsl(322, 100%, 66%); color: white"><h3>Get Started For Free</h3></button>
+        <img src="images/illustration-mockups.svg" alt="" height="350">
+    </section>
+    </article>
+  </header>
+  <article>
+    <section class="grow">
+      <h2>Grow Together</h2>
+      <p>Generate meaningful discussions with your audience and build a strong, loyal community.
+         Think of the insightful conversations you miss out on with a feedback form.</p>
+      <img src="images/illustration-grow-together.svg" alt="" width="450px" height="450px">
+    </section>
 
-  <table class="flow">
-    <tr>
-      <td>
+  <section class="flow">
         <h2>Flowing Conversations</h2>
         <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads
            have just-in-time loading for a more natural flow.</p>
-      </td>
-      <td>
         <img src="images/illustration-flowing-conversation.svg" alt="" width="450px" height="450px">
-      </td>
-    </tr>
-  </table>
+  </section>
 
-  <table class="users">
-    <tr>
-      <td>
+  <section class="users">
         <h2>Your Users</h2>
         <p>It takes no time at all to integrate Huddle with your app's authentication solution.
            This means, once signed in to your app, your users can start chatting immediately.</p>
-      </td>
-      <td>
         <img src="images/illustration-your-users.svg" alt="" width="450px" height="450px">
-      </td>
-    </tr>
-  </table>
+  </section>
 
-  <table class="ready-card">
-    <tr>
-      <td>
-        <h2>Ready To Build Your Community?</h2>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <button class="left-pink" style="background: hsl(322, 100%, 66%); color: white"><h3>Get Started For Free</h3></button>
-      </td>
-    </tr>
-  </table>
-
-  <footer>
-    <table class="footsie">
-      <tr><td><img src="images/logo.svg" alt="" class="footsie-logo"></td></tr>
-      <tr><td><img src="images/icon-location.svg" alt="Location icon" width="10px" height="10px"></td>
-          <td><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p></td>
-      <tr><td><img src="images/icon-phone.svg" alt="Phone icon" width="10px" height="10px"></td>
-        <td><p>+1-543-123-4567</p></td>
-      </tr>
-      <tr>
-        <td><img src="images/icon-email.svg" alt="Email icon" width="10px" height="10px"></td>
-        <td><p>example@huddle.com</p></td>
-      </tr>
-      <tr><td><p>About Us</p></td>
-        <td><p>Career</p></td>
-      </tr>
-      <tr><td><p>What We Do</p></td>
-        <td><p>Blog</p></td>
-      </tr>
-      <tr><td><p>FAQ</p></td>
-        <td><p>Contact Us</p></td>
-      </tr>
-      <!--<tr><td><p>&#9790;</p></td><td><p>&#127760;</p></td><td><p>&#9789;</p></td></tr>-->
-      <tr><td><p>&#9790;--------------&#127760;--------------&#9789;</p></td></tr>
-      <tr><td><p class="attribution">
-        <span>&copy Copyright 2018 Huddle. All rights reserved.</span></p>
+  <aside class="ready-card">
+    <section><h2>Ready To Build Your Community?</h2><button class="left-pink" style="background: hsl(322, 100%, 66%); color: white"><h3>Get Started For Free</h3></button>
+    </section>
+  </aside>
+  </article> <!--Should the footer go inside toe article-->
+  <footer class="footsie">
+      <img src="images/logo.svg" alt="" class="footsie-logo">
+    <ul class="decorated-list-items">
+      <li style="list-style-image: url('images/icon-location.svg');"><p>123 Location Street, City Name, Province, Country, Some Code</p></li>
+      <li style="list-style-image: url('images/icon-phone.svg');"><p>+1-543-123-4567</p></li>
+      <li style="list-style-image: url('images/icon-email.svg');"><p>example@huddle.com</p></li>
+    </ul>
+      <!--<img src="images/icon-location.svg" alt="Location icon" width="10px" height="10px">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+        <img src="images/icon-phone.svg" alt="Phone icon" width="10px" height="10px">
+        <p>+1-543-123-4567</p>
+        <img src="images/icon-email.svg" alt="Email icon" width="10px" height="10px">
+        <p>example@huddle.com</p>-->
+    <ul>
+      <li><p>About Us</p></li>
+      <li><p>Career</p></li>
+      <li><p>What We Do</p></li>
+    </ul>
+    <ul>
+      <li><p>Blog</p></li>
+      <li><p>FAQ</p></li>
+      <li><p>Contact Us</p></li>
+    </ul>
+        <p>&#9790; Social &#127760; Media &#9789; Icons</p>
+        <p class="attribution"><span>&copy Copyright 2018 Huddle. All rights reserved.</span></p>
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
         Coded by <a href="#">Not That Jay-Z</a>.
-      </p></td></tr>
-    </table>
+      </p>
   </footer>
 </body>
 </html>
