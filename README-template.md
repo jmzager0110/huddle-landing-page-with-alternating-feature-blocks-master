@@ -1,5 +1,7 @@
 # Frontend Mentor - Huddle landing page with alternating feature blocks solution
 
+**Note: This is STILL a work in progress! This Readme will be updated & will replace the initial README when it's ready to share.**
+
 This is a solution to the [Huddle landing page with alternating feature blocks challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
@@ -51,13 +53,8 @@ Screenshot coming soon!
 ### Built with
 
 - Semantic HTML5 markup
-- ~~CSS custom properties~~
-- ~~Flexbox~~
-- ~~CSS Grid~~
+- Bangin' CSS stylin'
 - Mobile-first workflow
-- ~~React JS library~~
-- ~~Next.js React framework~~
-- [Styled Components](https://styled-components.com/) - For styles
 
 
 ### What I learned
