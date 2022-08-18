@@ -25,118 +25,109 @@
     "https://unsplash.com/photos/bviex5lwf3s" <- alt="single jelly fish with pink & teal tones", background for header
     "https://github.com/jmzager0110/image-store/blob/main/Moon.svg" <- background image generated to svg then stored on github
 
-  <style>
-    * { font-family: 'Poppins', sans-serif; }
-    p { color: hsl(208, 11%, 55%); font: 18px; }
-    ul {  list-style-type: none; margin: 0; padding: 0; }
-    button {border-style: none; border-radius: 15px; }
-    .footsie, .attribution { color: white; background-color: hsl(192, 100%, 9%); }
-    .attribution { font-size: 11px; text-align: center; }
-    a.attribution { color: hsl(228, 45%, 44%); }
-    .cta-card{ border: .05px solid hsl(208, 11%, 55%); border-radius: 5px; }
-    .footsie-logo{ filter: brightness(100);}
-  </style>
-
-</head>
-
-<body>
-  <header class="top">
-    <article>
-    <img src="LOGO"> <h1>Build The Community Your Fans Will Love</h1><button class="right-gray" style="background: white"><h5>Try It Free</h5></button>
-      <section>
-        <p><b>Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
-              Create connections with your users as you engage in genuine discussion.</b></p>
-            <button class="left-pink" style="background: hsl(322, 100%, 66%); color: white"><h3>Get Started For Free</h3></button>
-      <img src="MOCKUP" alt="" width="115%" height="45%">
-    </section>
-    </article>
-  </header>
-  <article>
-  <section class="grow">
-        <h2>Grow Together</h2>
-        <p>Generate meaningful discussions with your audience and build a strong, loyal community.
-           Think of the insightful conversations you miss out on with a feedback form.</p>
-        <img src="GROW TOGETHER" alt="" width="450px" height="450px">
-  </section>
-
-  <section class="flow">
-        <h2>Flowing Conversations</h2>
-        <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads
-           have just-in-time loading for a more natural flow.</p>
-        <img src="CONVERSATION" alt="" width="450px" height="450px">
-  </section>
-
-  <section class="users">
-        <h2>Your Users</h2>
-        <p>It takes no time at all to integrate Huddle with your app's authentication solution.
-           This means, once signed in to your app, your users can start chatting immediately.</p>
-        <img src="USERS" alt="" width="450px" height="450px">
-  </section>
-
-  <div class="ready-card">
-        <h2>Ready To Build Your Community?</h2>
-        <button class="left-pink" style="background: hsl(322, 100%, 66%); color: white"><h3>Get Started For Free</h3></button>
-  </div>
-</article>
-  <footer>
-    <table class="footsie">
-       <img src="LOGO" alt="" class="footsie-logo">
-       <ul class="decorated-list-items">
-        <li style="list-style-image: LOCATION ICON><p>123 Location Street, City Name, Province, Country, Some Code</p></li>
-        <li style="list-style-image: PHONE ICON><p>+1-543-123-4567</p></li>
-        <li style="list-style-image: EMAIL ICON><p>example@huddle.com</p></li>
-      </ul>
-      <ul>
-            <li><p>About Us</p></li>
-            <li><p>Career</p></li>
-            <li><p>What We Do</p></li>
-          </ul>
-          <ul>
-            <li><p>Blog</p></li>
-            <li><p>FAQ</p></li>
-            <li><p>Contact Us</p></li>
-          </ul>
-              <p>&#9790; Social &#127760; Media &#9789; Icons</p>
-              <p class="attribution"><span>&copy Copyright 2018 Huddle. All rights reserved.</span></p>
-              Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-              Coded by <a href="#">Not That Jay-Z</a>.
-            </p>
-        </footer>
-
-
-        ***alt ul in footer:
-              <ul class="decorated-list-items">
-                <li>
-                  <p>123 Location Street, City Name, Province, Country, Some Code</p>
-                </li>
-                <li>
-                  <p>+1-543-123-4567</p>
-                </li>
-                <li>
-                  <p>example@huddle.com</p>
-                </li>
-              </ul>
-              <div class="no-style">
-                <ul>
-                  <li>
-                    <p>About Us</p>
-                  </li>
-                  <li>
-                    <p>Career</p>
-                  </li>
-                  <li>
-                    <p>What We Do</p>
-                  </li>
-                </ul>
-                <ul>
-                  <li>
-                    <p>Blog</p>
-                  </li>
-                  <li>
-                    <p>FAQ</p>
-                  </li>
-                  <li>
-                    <p>Contact Us</p>
-                  </li>
-                </ul>
-              </div>
+doctype html
+html(lang='en', xmlns='http://www.w3.org/1999/html')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    // displays site properly based on user's device
+    link(rel='preconnect', href='https://fonts.googleapis.com')
+    link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap', rel='stylesheet')
+    link(rel='icon', type='image/png', sizes='32x32', href='./images/favicon-32x32.png')
+    title Frontend Mentor | Huddle landing page with alternating feature blocks
+    style.
+      * { font-family: 'Poppins', sans-serif; }
+      p { color: hsl(208, 11%, 55%); font: 18px; }
+      ul {  list-style-type: none; }
+      .decorated-list-items ul{ list-style-type: initial; }
+      button {border-style: none; border-radius: 15px; }
+      .footsie, .attribution { color: white; background-color: hsl(192, 100%, 9%); }
+      .attribution { font-size: 11px; text-align: center; }
+      a.attribution { color: hsl(228, 45%, 44%); }
+      .cta-card{ border: .05px solid hsl(208, 11%, 55%); border-radius: 5px; }
+      .footsie-logo{ filter: brightness(100);}
+  body
+    header.top(style="background: hsl(193, 100%, 96%); background-image: url('images/bg-hero-desktop.svg');")
+      img.logo-header(src='images/logo.svg', alt='')
+      |
+      h1
+        | Build The Community Your Fans Will Love
+        a(href='https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100', target='_parent')
+          button.right-gray(style='background: white')
+            h5 Try It Free
+      section
+        p
+          b
+            | Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+            | Create connections with your users as you engage in genuine discussion.
+        a(href='https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100')
+          button.left-pink(style='background: hsl(322, 100%, 66%); color: white')
+            h3 Get Started For Free
+        img(src='images/illustration-mockups.svg', alt='', height='350')
+    main
+      article
+        section.grow
+          h2 Grow Together
+          p
+            | Generate meaningful discussions with your audience and build a strong, loyal community.
+            | Think of the insightful conversations you miss out on with a feedback form.
+          img(src='images/illustration-grow-together.svg', alt='', width='450px', height='450px')
+        section.flow
+          h2 Flowing Conversations
+          p
+            | You wouldn&apos;t paginate a conversation in real life, so why do it online? Our threads
+            | have just-in-time loading for a more natural flow.
+          img(src='images/illustration-flowing-conversation.svg', alt='', width='450px', height='450px')
+        section.users
+          h2 Your Users
+          p
+            | It takes no time at all to integrate Huddle with your app&apos;s authentication solution.
+            | This means, once signed in to your app, your users can start chatting immediately.
+          img(src='images/illustration-your-users.svg', alt='', width='450px', height='450px')
+      .cta-card
+        h2 Ready To Build Your Community?
+        a(href='https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100')
+          button.left-pink(style='background: hsl(322, 100%, 66%); color: white')
+            h3 Get Started For Free
+    footer.footsie
+      img.logo-foot(src='images/logo.svg', alt='')
+      ul.decorated-list-items
+        li(style="list-style-image: url('images/icon-location.svg');")
+          a(href='#')  123 Location Street, City Name, Province, Country, Some Code
+        li(style="list-style-image: url('images/icon-phone.svg');")
+          a(href='tel:+1-543-123-4567') +1-543-123-4567
+        li(style="list-style-image: url('images/icon-email.svg');")
+          a(href='mailto:example@huddle.com') example@huddle.com
+      ul.unstyled
+        li
+          a(href='#') About Us
+        li
+          a(href='#') Career
+        li
+          a(href='#') What We Do
+      ul
+        li
+          a(href='#') Blog
+        li
+          a(href='#') FAQ
+        li
+          a(href='#') Contact Us
+      .connection-icons
+        ul
+          a(href='#') &#x263E; Social
+          a(href='#') &#x1F310; Media
+          a(href='#') &#x263D; Icons
+      .social-icons
+        p &#x263E; Social
+        p &#x1F310; Media
+        p &#x263D; Icons
+      p.attribution
+        span &copy; Copyright 2018 Huddle. All rights reserved.
+      p
+        | Challenge by
+        a(href='https://www.frontendmentor.io?ref=challenge', target='_blank') Frontend Mentor
+        | .
+          Coded by
+        a(href='#') Not That Jay-Z
+        | .
